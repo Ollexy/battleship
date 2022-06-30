@@ -4,6 +4,7 @@
 #include <vector>
 #include <algorithm>
 #include <Windows.h>
+#include "board.hpp"
 
 class Player
 {
@@ -16,7 +17,7 @@ public:
     std::string getName();
     void setName();
 
-    std::vector<int> placeShips();
+    std::vector<int> placeShips(Board* ptr);
     std::vector<int> shooting();
 
     void waitingScreen();

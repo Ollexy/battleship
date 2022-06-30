@@ -1,5 +1,6 @@
-#include "board.h"
-#include "game.h"
+#pragma once
+#include "board.hpp"
+#include "game.hpp"
 #include <string>
 
 
